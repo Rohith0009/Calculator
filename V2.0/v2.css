@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+  background: linear-gradient(90deg, red, blue);
+}
+
+#input-container {
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  width: 450;
+}
+
+button {
+  border-radius: 20px;
+  font-size: 120px;
+}

@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Calculator V1.0</title>
+    <link rel="stylesheet" href="v1.css" />
+    <script src="v1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/564/564429.png" />
+  </head>
+
+  <body>
+    <center>
+      <h1>Basic Calculator V1.0</h1>
+      <br />
+      <br />
+      <div id="input-container">
+        <input type="text" class="form-control" placeholder="Enter The First Number" id="num1" />
+        <input type="text" class="form-control" placeholder="Enter The Second Number" id="num2" />
+        <h3>Select The Operation:</h3>
+        <button class="btn btn-primary bt" onclick="add()" id="add">Addition</button>
+        <button class="btn btn-primary bt" onclick="sub()" id="sub">Subtraction</button>
+        <button class="btn btn-primary bt" onclick="mul()" id="mul">Multiplication</button>
+        <button class="btn btn-primary bt" onclick="divi()" id="divi">Division</button>
+        <h2 id="ans_label"></h2>
+      </div>
+    </center>
+  </body>
+</html>
