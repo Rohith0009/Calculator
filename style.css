@@ -1,5 +1,7 @@
 body {
   text-align: center;
+  background-image: var(--gradient-7);
+  height: 741px;
 }
 
 .card-grid {
@@ -12,8 +14,9 @@ body {
 .card {
   background: white;
   border: 1px solid #777;
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   overflow: hidden;
+  margin: 10px;
 }
 
 .card.card-shadow {
@@ -81,6 +84,8 @@ a.btn-outline:focus {
   transform: scale(1.025);
 }
 
-img {
-  scale: 1000;
+.open-btn {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
 }

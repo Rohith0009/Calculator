@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(90deg, skyblue, #6cd785);
+  background-image: var(--gradient-22);
 }
 
 h1 {
